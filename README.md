@@ -69,6 +69,6 @@ Contribuições ou sugestões para a conclusão deste projeto ou melhorias são 
 Agradeço pela compreensão.
 
 Atenciosamente,
-[Marcos P.Pires]
+Marcos P.Pires
 
 
