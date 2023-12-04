@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nota</title>
+</head>
+<body>
+    <h1>Criar Nota Fiscal de Serviço</h1>
+    <form id="formNotaFiscal">
+     
+  
+      <label for="cityServiceCode">Código do Serviço:</label>
+      <input type="text" id="cityServiceCode" name="cityServiceCode" required><br>
+  
+      <label for="description">Descrição dos Serviços:</label>
+      <textarea id="description" name="description" required></textarea><br>
+  
+      <label for="servicesAmount">Valor Total dos Serviços:</label>
+      <input type="number" id="servicesAmount" name="servicesAmount" required><br>
+  
+      <h2>Dados do Tomador dos Serviços</h2>
+  
+      <label for="type">Tipo do Tomador dos Serviços:</label>
+      <select id="type" name="type" required>
+        <option value="LegalEntity">Pessoa Jurídica</option>
+        <option value="Individual">Pessoa Física</option>
+      </select><br>
+  
+      <label for="federalTaxNumber">CNPJ ou CPF:</label>
+      <input type="text" id="federalTaxNumber" name="federalTaxNumber" required><br>
+  
+      <label for="name">Nome / Razão Social:</label>
+      <input type="text" id="name" name="name" required><br>
+  
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required><br>
+  
+      <label for="postalCode">CEP:</label>
+      <input type="text" id="postalCode" name="postalCode" required><br>
+  
+      <label for="street">Logradouro:</label>
+      <input type="text" id="street" name="street" required><br>
+  
+      <label for="number">Número:</label>
+      <input type="text" id="number" name="number"><br>
+  
+      <label for="additionalInformation">Complemento:</label>
+      <input type="text" id="additionalInformation" name="additionalInformation"><br>
+  
+      <label for="district">Bairro:</label>
+      <input type="text" id="district" name="district" required><br>
+  
+      <label for="cityCode">Código IBGE da Cidade:</label>
+      <input type="number" id="cityCode" name="cityCode"><br>
+  
+      <label for="cityName">Nome da Cidade:</label>
+      <input type="text" id="cityName" name="cityName" required><br>
+  
+      <label for="state">Estado:</label>
+      <input type="text" id="state" name="state" required><br>
+  
+      <button type="button" id="criarNotaBtn">Criar Nota Fiscal</button>
+    </form>
+
+    <script src="main.js">
+    </script>
+</body>
+</html>
