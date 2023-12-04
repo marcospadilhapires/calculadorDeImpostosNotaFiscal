@@ -7,7 +7,7 @@ Este é um projeto em desenvolvimento para a criação de um sistema de emissão
 ### Pré-requisitos
 
 - Node.js instalado
-- Chave de acesso válida para a API da NFe.io
+- Chave de acesso válida para a API da NFe.io (já inclusa no código)
 
 ### Instalação
 
@@ -31,7 +31,7 @@ Este é um projeto em desenvolvimento para a criação de um sistema de emissão
 
 ### Configuração
 
-- Antes de executar o projeto, é necessário adicionar a chave de acesso válida da NFe.io no arquivo `server.js` para que o servidor possa se comunicar com a API.
+- Antes de executar o projeto, é necessário adicionar a chave de acesso válida da NFe.io no arquivo `server.js` para que o servidor possa se comunicar com a API. No momento, está cadastrada a minha chave, mas sinta-se à vontade para [se cadastrar na plataforma NFE.io](https://nfe.io/) e inserir sua própria chave.
 
 ### Execução
 
@@ -53,11 +53,22 @@ Este é um projeto em desenvolvimento para a criação de um sistema de emissão
 - [ ] Processamento dos dados recebidos e chamada para a API da NFe.io
 - [ ] Tratamento de erros e validações de dados do formulário
 
+
+## Estado Atual do Projeto
+
+Infelizmente, devido a restrições de tempo, este projeto não foi concluído conforme planejado. Partes significativas, como a lógica de submissão do formulário para o servidor Node.js e o processamento dos dados recebidos, ainda estão pendentes.
+
+## Feedback e Revisão
+
+Agradeço pela oportunidade de participar deste processo seletivo para o estagio e gostaria de receber um feedback sobre o que foi produzido até agora. Se possível, apreciaria muito qualquer orientação ou revisão que o recrutador possa oferecer para ajudar no meu desenvolvimento profissional e técnico.
+
 ## Contribuições
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue para reportar bugs ou propor novas funcionalidades através de pull requests.
+Contribuições ou sugestões para a conclusão deste projeto ou melhorias são bem-vindas! Sinta-se à vontade para fornecer qualquer feedback ou recomendações sobre como eu poderia melhorar a implementação.
 
-## Licença
+Agradeço pela compreensão.
 
-Este projeto está licenciado sob a [Licença MIT](https://opensource.org/licenses/MIT).
+Atenciosamente,
+[Marcos P.Pires]
+
 
